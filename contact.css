@@ -226,6 +226,8 @@ footer {
 
     form {
         padding: 25px;
+        width: 100%;
+        margin: 0 auto;
     }
 
     input[type="text"],
@@ -233,5 +235,10 @@ footer {
     textarea {
         font-size: 14px;
         padding: 10px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px 15px;
     }
 }
