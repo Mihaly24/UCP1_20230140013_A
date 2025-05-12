@@ -216,4 +216,14 @@ footer {
     section {
         padding: 20px;
     }
+
+    table {
+        overflow-x: auto;
+        display: block;
+        white-space: nowrap;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
 }

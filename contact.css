@@ -227,4 +227,11 @@ footer {
     form {
         padding: 25px;
     }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 14px;
+        padding: 10px;
+    }
 }
