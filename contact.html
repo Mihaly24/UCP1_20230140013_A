@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontak Kami</title>
+  <link rel="stylesheet" href="contact.css">
+  <script>
+    function submitForm() {
+      alert("Pesan anda terkirim. Terima kasih telah menghubungi kami!");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Kontak Kami</h1>
+    <div class="navigation"></div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="about.html">Tentang</a></li>
+        <li><a href="features.html">Fitur</a></li>
+        <li><a href="contact.html" class="active">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <form onsubmit="submitForm(); return false;">
+      <label for="nama">Nama:</label><br>
+      <input type="text" id="nama" name="nama" required><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+      <label for="minat">Minat Belajar:</label><br>
+      <input type="text" id="minat" name="minat" required><br><br>
+      <input type="submit" value="Kirim">
+    </form>
+  </main>
+    <footer>
+    &copy; 2025 EduApp
+    </footer>
+</body>
+</html>
